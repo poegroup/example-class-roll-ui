@@ -1,0 +1,14 @@
+import './index.ess'
+
+var c = props.c
+
+.ClassItem
+  .ClassItem-content
+    .ClassItem-action
+      a.ClassItem-delete(href="#"): i.icon.icon-trash
+    .ClassItem-action
+      a.ClassItem-update(href="#"): i.icon.icon-pencil
+    .ClassItem-label= c.name
+
+
+export var displayName = 'ClassItem'

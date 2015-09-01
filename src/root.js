@@ -14,4 +14,9 @@ var color = exports.color;
 for (var key in color)
   color[key] = new Color(color[key]);
 
+
+// Set app's Primary and Accent colors for use with skins
+color['primary'] = color['blue'];
+color['accent'] = color['yellow'];
+
 export var color = color;

@@ -1,0 +1,8 @@
+import ClassItem from '../../components/class-item'
+
+h1: t('App.welcome' _="Welcome to Class Roll!")
+
+var classes = _.classes
+
+each c in classes
+  ClassItem(c=c)

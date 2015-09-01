@@ -1,5 +1,7 @@
 import {Route, DefaultRoute} from 'react-router'
 
 import App from 'app'
+import Classes from 'pages/classes'
 
 Route(name='root' handler=App path=props.base)
+  DefaultRoute(name='classes' path='classes' handler=Classes)
